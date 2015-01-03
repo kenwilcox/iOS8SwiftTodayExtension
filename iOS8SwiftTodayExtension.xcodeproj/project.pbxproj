@@ -13,6 +13,7 @@
 		BE75B5C21A589265002488B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE75B5C11A589265002488B6 /* Images.xcassets */; };
 		BE75B5C51A589265002488B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE75B5C31A589265002488B6 /* LaunchScreen.xib */; };
 		BE75B5D11A589265002488B6 /* iOS8SwiftTodayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE75B5D01A589265002488B6 /* iOS8SwiftTodayExtensionTests.swift */; };
+		BE75B5DC1A58942C002488B6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE75B5DA1A58942C002488B6 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE75B5CA1A589265002488B6 /* iOS8SwiftTodayExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftTodayExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE75B5CF1A589265002488B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE75B5D01A589265002488B6 /* iOS8SwiftTodayExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftTodayExtensionTests.swift; sourceTree = "<group>"; };
+		BE75B5DA1A58942C002488B6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE75B5DB1A58942C002488B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE75B5AC1A589265002488B6 = {
 			isa = PBXGroup;
 			children = (
+				BE75B5DA1A58942C002488B6 /* LICENSE */,
+				BE75B5DB1A58942C002488B6 /* README.md */,
 				BE75B5B71A589265002488B6 /* iOS8SwiftTodayExtension */,
 				BE75B5CD1A589265002488B6 /* iOS8SwiftTodayExtensionTests */,
 				BE75B5B61A589265002488B6 /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE75B5C01A589265002488B6 /* Main.storyboard in Resources */,
 				BE75B5C51A589265002488B6 /* LaunchScreen.xib in Resources */,
+				BE75B5DC1A58942C002488B6 /* LICENSE in Resources */,
 				BE75B5C21A589265002488B6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
