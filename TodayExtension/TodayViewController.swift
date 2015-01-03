@@ -16,8 +16,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view from its nib.
-    let os = NSProcessInfo().operatingSystemVersionString
-    versionLabel.text = os
+    let os = NSProcessInfo().operatingSystemVersion
+    let version = "\(os.majorVersion).\(os.minorVersion).\(os.patchVersion)"
+    versionLabel.text = version
   }
   
   override func didReceiveMemoryWarning() {
