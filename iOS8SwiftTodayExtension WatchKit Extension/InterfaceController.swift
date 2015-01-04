@@ -18,6 +18,9 @@ class InterfaceController: WKInterfaceController {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
+    let os = NSProcessInfo().operatingSystemVersion
+    let version = "\(os.majorVersion).\(os.minorVersion).\(os.patchVersion)"
+    versionLabel.setText(version)
   }
   
   override func willActivate() {
