@@ -27,7 +27,7 @@ class InterfaceController: WKInterfaceController {
     var data = ""
     for i in 1...100 {
       data += "Some line or so \(i)\n"
-      if i % 10 == 0 {
+      if i % 5 == 0 {
         data += "\n"
       }
     }
