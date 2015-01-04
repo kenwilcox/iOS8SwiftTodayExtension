@@ -16,7 +16,9 @@
                                 <label alignment="right" text="Label" id="8zK-oq-ezv"/>
                             </items>
                         </group>
-                        <label alignment="left" text="Label" id="Rhg-gH-ida"/>
+                        <label heightAdjustment="15" alignment="left" numberOfLines="0" id="Rhg-gH-ida">
+                            <string key="text">ljadsfljsdfljsdflkjsflkjsdflkjasdfljsadlfjasldfkjasldfkjasldfkjsaldfkjasldfkjasldfkjasldfkjasdlfkjasdflkjasdflkjasdlfkjasflkjasdflkjasdflkjasldfkjaslfkjasldfkjsladkfjalsdfkjalsdfkjlaskjflaskjdflsakjdflksjdflkjsdflkjasdflkjasdfljasdflkjasdlfkjasdlfkjasdlfkjasdflkjasdflkajsdflaskjfdlaskdjflaskdjflaskjdflaskjdflkasjdflkjasdflkjasdflkjasdf</string>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="bigText" destination="Rhg-gH-ida" id="dS3-5j-dnV"/>

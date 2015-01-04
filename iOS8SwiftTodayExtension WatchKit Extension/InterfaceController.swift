@@ -25,8 +25,8 @@ class InterfaceController: WKInterfaceController {
     
     // Just trying to see how much text you can easily put in a label
     var data = ""
-    for i in 1...10 {
-      data += "Some line or so \(i), "
+    for i in 1...100 {
+      data += "Some line or so \(i)\n"
     }
     bigText.setText(data)
   }
