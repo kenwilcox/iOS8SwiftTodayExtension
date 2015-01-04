@@ -16,8 +16,10 @@
                                 <label alignment="right" text="Label" id="8zK-oq-ezv"/>
                             </items>
                         </group>
+                        <label width="1" alignment="left" text="Label" id="Rhg-gH-ida"/>
                     </items>
                     <connections>
+                        <outlet property="bigText" destination="Rhg-gH-ida" id="dS3-5j-dnV"/>
                         <outlet property="versionLabel" destination="8zK-oq-ezv" id="kC2-1X-89a"/>
                     </connections>
                 </controller>

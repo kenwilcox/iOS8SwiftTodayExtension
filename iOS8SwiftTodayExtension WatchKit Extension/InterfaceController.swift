@@ -13,6 +13,7 @@ import Foundation
 class InterfaceController: WKInterfaceController {
   
   @IBOutlet var versionLabel: WKInterfaceLabel!
+  @IBOutlet var bigText: WKInterfaceLabel!
   
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
