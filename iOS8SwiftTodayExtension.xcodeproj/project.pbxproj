@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0358A81A5912EE0059B06B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0358A71A5912EE0059B06B /* InterfaceController.swift */; };
+		BE0358AA1A5912EE0059B06B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0358A91A5912EE0059B06B /* Images.xcassets */; };
+		BE0358AE1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = BE0358AD1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App.app */; };
+		BE0358B61A5912EE0059B06B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0358B41A5912EE0059B06B /* Interface.storyboard */; };
+		BE0358B81A5912EE0059B06B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0358B71A5912EE0059B06B /* Images.xcassets */; };
+		BE0358BB1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE0358A31A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BE75B5BB1A589265002488B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE75B5BA1A589265002488B6 /* AppDelegate.swift */; };
 		BE75B5BD1A589265002488B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE75B5BC1A589265002488B6 /* ViewController.swift */; };
 		BE75B5C01A589265002488B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE75B5BE1A589265002488B6 /* Main.storyboard */; };
@@ -21,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BE0358AF1A5912EE0059B06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE75B5AD1A589265002488B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0358AC1A5912EE0059B06B;
+			remoteInfo = "iOS8SwiftTodayExtension WatchKit App";
+		};
+		BE0358B91A5912EE0059B06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE75B5AD1A589265002488B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0358A21A5912EE0059B06B;
+			remoteInfo = "iOS8SwiftTodayExtension WatchKit Extension";
+		};
 		BE75B5CB1A589265002488B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE75B5AD1A589265002488B6 /* Project object */;
@@ -44,6 +64,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				BE0358BB1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension.appex in Embed App Extensions */,
 				BE75B5F01A5894BC002488B6 /* TodayExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -52,6 +73,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE0358A31A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOS8SwiftTodayExtension WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0358A61A5912EE0059B06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0358A71A5912EE0059B06B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BE0358A91A5912EE0059B06B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE0358AD1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8SwiftTodayExtension WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0358B31A5912EE0059B06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0358B51A5912EE0059B06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BE0358B71A5912EE0059B06B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE75B5B51A589265002488B6 /* iOS8SwiftTodayExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8SwiftTodayExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE75B5B91A589265002488B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE75B5BA1A589265002488B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +101,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE0358A01A5912EE0059B06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE75B5B21A589265002488B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,6 +133,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE0358A41A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE0358A71A5912EE0059B06B /* InterfaceController.swift */,
+				BE0358A91A5912EE0059B06B /* Images.xcassets */,
+				BE0358A51A5912EE0059B06B /* Supporting Files */,
+			);
+			path = "iOS8SwiftTodayExtension WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BE0358A51A5912EE0059B06B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0358A61A5912EE0059B06B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE0358B11A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BE0358B41A5912EE0059B06B /* Interface.storyboard */,
+				BE0358B71A5912EE0059B06B /* Images.xcassets */,
+				BE0358B21A5912EE0059B06B /* Supporting Files */,
+			);
+			path = "iOS8SwiftTodayExtension WatchKit App";
+			sourceTree = "<group>";
+		};
+		BE0358B21A5912EE0059B06B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0358B31A5912EE0059B06B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BE75B5AC1A589265002488B6 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +177,8 @@
 				BE75B5B71A589265002488B6 /* iOS8SwiftTodayExtension */,
 				BE75B5CD1A589265002488B6 /* iOS8SwiftTodayExtensionTests */,
 				BE75B5E61A5894BC002488B6 /* TodayExtension */,
+				BE0358A41A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension */,
+				BE0358B11A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App */,
 				BE75B5E31A5894BC002488B6 /* Frameworks */,
 				BE75B5B61A589265002488B6 /* Products */,
 			);
@@ -116,6 +190,8 @@
 				BE75B5B51A589265002488B6 /* iOS8SwiftTodayExtension.app */,
 				BE75B5CA1A589265002488B6 /* iOS8SwiftTodayExtensionTests.xctest */,
 				BE75B5E21A5894BC002488B6 /* TodayExtension.appex */,
+				BE0358A31A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension.appex */,
+				BE0358AD1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +263,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BE0358A21A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0358C11A5912EE0059B06B /* Build configuration list for PBXNativeTarget "iOS8SwiftTodayExtension WatchKit Extension" */;
+			buildPhases = (
+				BE03589F1A5912EE0059B06B /* Sources */,
+				BE0358A01A5912EE0059B06B /* Frameworks */,
+				BE0358A11A5912EE0059B06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0358B01A5912EE0059B06B /* PBXTargetDependency */,
+			);
+			name = "iOS8SwiftTodayExtension WatchKit Extension";
+			productName = "iOS8SwiftTodayExtension WatchKit Extension";
+			productReference = BE0358A31A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		BE0358AC1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0358C01A5912EE0059B06B /* Build configuration list for PBXNativeTarget "iOS8SwiftTodayExtension WatchKit App" */;
+			buildPhases = (
+				BE0358AB1A5912EE0059B06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS8SwiftTodayExtension WatchKit App";
+			productName = "iOS8SwiftTodayExtension WatchKit App";
+			productReference = BE0358AD1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		BE75B5B41A589265002488B6 /* iOS8SwiftTodayExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE75B5D41A589265002488B6 /* Build configuration list for PBXNativeTarget "iOS8SwiftTodayExtension" */;
@@ -200,6 +309,7 @@
 			);
 			dependencies = (
 				BE75B5EE1A5894BC002488B6 /* PBXTargetDependency */,
+				BE0358BA1A5912EE0059B06B /* PBXTargetDependency */,
 			);
 			name = iOS8SwiftTodayExtension;
 			productName = iOS8SwiftTodayExtension;
@@ -250,6 +360,12 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Kenneth Wilcox";
 				TargetAttributes = {
+					BE0358A21A5912EE0059B06B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BE0358AC1A5912EE0059B06B = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					BE75B5B41A589265002488B6 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -278,11 +394,31 @@
 				BE75B5B41A589265002488B6 /* iOS8SwiftTodayExtension */,
 				BE75B5C91A589265002488B6 /* iOS8SwiftTodayExtensionTests */,
 				BE75B5E11A5894BC002488B6 /* TodayExtension */,
+				BE0358A21A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension */,
+				BE0358AC1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BE0358A11A5912EE0059B06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0358AA1A5912EE0059B06B /* Images.xcassets in Resources */,
+				BE0358AE1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0358AB1A5912EE0059B06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0358B61A5912EE0059B06B /* Interface.storyboard in Resources */,
+				BE0358B81A5912EE0059B06B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE75B5B31A589265002488B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +448,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE03589F1A5912EE0059B06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0358A81A5912EE0059B06B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE75B5B11A589265002488B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +484,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BE0358B01A5912EE0059B06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0358AC1A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit App */;
+			targetProxy = BE0358AF1A5912EE0059B06B /* PBXContainerItemProxy */;
+		};
+		BE0358BA1A5912EE0059B06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0358A21A5912EE0059B06B /* iOS8SwiftTodayExtension WatchKit Extension */;
+			targetProxy = BE0358B91A5912EE0059B06B /* PBXContainerItemProxy */;
+		};
 		BE75B5CC1A589265002488B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BE75B5B41A589265002488B6 /* iOS8SwiftTodayExtension */;
@@ -353,6 +507,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BE0358B41A5912EE0059B06B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0358B51A5912EE0059B06B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		BE75B5BE1A589265002488B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,6 +534,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BE0358BC1A5912EE0059B06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS8SwiftTodayExtension WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE0358BD1A5912EE0059B06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "iOS8SwiftTodayExtension WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE0358BE1A5912EE0059B06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = iOS8SwiftTodayExtension_WatchKit_Extension;
+				INFOPLIST_FILE = "iOS8SwiftTodayExtension WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		BE0358BF1A5912EE0059B06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = iOS8SwiftTodayExtension_WatchKit_Extension;
+				INFOPLIST_FILE = "iOS8SwiftTodayExtension WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		BE75B5D21A589265002488B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,6 +758,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE0358C01A5912EE0059B06B /* Build configuration list for PBXNativeTarget "iOS8SwiftTodayExtension WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0358BE1A5912EE0059B06B /* Debug */,
+				BE0358BF1A5912EE0059B06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE0358C11A5912EE0059B06B /* Build configuration list for PBXNativeTarget "iOS8SwiftTodayExtension WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0358BC1A5912EE0059B06B /* Debug */,
+				BE0358BD1A5912EE0059B06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BE75B5B01A589265002488B6 /* Build configuration list for PBXProject "iOS8SwiftTodayExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -550,6 +790,7 @@
 				BE75B5D61A589265002488B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE75B5D71A589265002488B6 /* Build configuration list for PBXNativeTarget "iOS8SwiftTodayExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +799,7 @@
 				BE75B5D91A589265002488B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE75B5F11A5894BC002488B6 /* Build configuration list for PBXNativeTarget "TodayExtension" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +808,7 @@
 				BE75B5F31A5894BC002488B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
