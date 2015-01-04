@@ -22,6 +22,13 @@ class InterfaceController: WKInterfaceController {
     let os = NSProcessInfo().operatingSystemVersion
     let version = "\(os.majorVersion).\(os.minorVersion).\(os.patchVersion)"
     versionLabel.setText(version)
+    
+    // Just trying to see how much text you can easily put in a label
+    var data = ""
+    for i in 1...10 {
+      data += "Some line or so \(i), "
+    }
+    bigText.setText(data)
   }
   
   override func willActivate() {
